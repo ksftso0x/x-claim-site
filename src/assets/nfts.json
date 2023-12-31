@@ -1,0 +1,46 @@
+[
+    {
+        "code_name":"FlarePunks",
+        "name":"Flare punks",
+        "addr":"0xc5F0C8b27dd920F4F469a857D6F0fEcF0fA2bDb8",
+        "chain":"0xe",
+        "chain_name":"Flare",
+        "abi_file_name":"CanaryPunks",
+        "claim_func":"claimRewards",
+        "read_func":"getRewardsAmount",
+        "needs_address":true
+    },
+    {
+        "code_name":"FlareApes",
+        "name":"Flare Apes",
+        "addr":"0x862B713fEcEbC5304eD7aF993D79A3a6AE8747Dd",
+        "chain":"0xe",
+        "chain_name":"Flare",
+        "abi_file_name":"FlareApes",
+        "claim_func":"claimRewards",
+        "read_func":"getRewardsAmount",
+        "needs_address":true
+    },
+    {
+        "code_name":"CanaryPunks",
+        "name":"Songbrid Punks",
+        "addr":"0xe6e7dB32df87F75609fB78D5f52753C2d3D98d84",
+        "chain":"0x13",
+        "chain_name":"Songbird",
+        "abi_file_name":"CanaryPunks",
+        "claim_func":"claimRewards",
+        "read_func":"getRewardsAmount",
+        "needs_address":true
+    },
+    {
+        "code_name":"SongbirdApes",
+        "name":"Songbrid Apes",
+        "addr":"0xD7DE7A01Bd08Aa1299157A24A3491410C363517D",
+        "chain":"0x13",
+        "chain_name":"Songbird",
+        "abi_file_name":"SongbirdApes",
+        "claim_func":"claimRewardsSGB",
+        "read_func":"getClaimableAmountSGB",
+        "needs_address":true
+    }
+]

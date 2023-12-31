@@ -1,0 +1,11 @@
+[
+    {
+        "name":"Canary Gold",
+        "addr":"0x1c7d1dd0995dd0ABdd71FD67924C9dD4Cf7b4135",
+        "chain":"0x13",
+        "abi_file_name":"CanaryGold",
+        "claim_func":"claimReward",
+        "read_func":"getClaimableAmount",
+        "needs_address":false
+    }
+]

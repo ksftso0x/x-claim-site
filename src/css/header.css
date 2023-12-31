@@ -1,0 +1,95 @@
+.header-holder {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 1rem;
+  align-items: center;
+  align-content: center;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+header .nav-tab {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0rem;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-style: solid;
+  border-color: var(--accent);
+  border-radius: 0rem;
+  border-style: solid;
+  border-top-width: 0.075rem;
+  border-bottom-width: 0rem;
+  border-left-width: 0.075rem;
+  border-right-width: 0.075rem;
+  background-color: var(--background2);
+}
+header .nav-tab * {
+  border-style: solid;
+  border-color: var(--accent);
+  border-radius: 0rem;
+  border-style: solid;
+  border-top-width: 0.075rem;
+  border-bottom-width: 0rem;
+  border-left-width: 0.075rem;
+  border-right-width: 0.075rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+header .nav-tab .unselected {
+  filter: grayscale(75%);
+}
+
+.text-with-icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 1.25rem;
+}
+
+hr {
+  margin-top: 1rem;
+  width: 100%;
+  color: var(--accent);
+}
+
+@media screen and (max-width: 1516px) {
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 1258px) {
+  .tabs {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */

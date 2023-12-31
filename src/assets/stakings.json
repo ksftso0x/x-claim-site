@@ -1,0 +1,12 @@
+
+    {
+        "code_name":"CanaryStaking",
+        "name":"Canary Staking",
+        "addr":"0xFdb7c7c2b4B00FAf0c211b7d8D1a0bE33716959C",
+        "chain":"0x13",
+        "chain_name":"Songbird",
+        "abi_file_name":"CanaryStaking",
+        "claim_func":"claimRewardBatch",
+        "read_func":"calcTotalPendingReward",
+        "needs_address":false
+    }

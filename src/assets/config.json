@@ -1,0 +1,17 @@
+{
+    "PROJECT_ID": "bad876b7c829ec9f28644fd06aacc250",
+    "CHAINS": [
+        {
+            "CHAIN_ID": "0x13",
+            "CHAIN_TOKEN_NAME": "SGB",
+            "CHAIN_LABEL": "Songbird",
+            "CHAIN_URI": "https://songbird-api.flare.network/ext/C/rpc"
+        },
+        {
+            "CHAIN_ID": "0xe",
+            "CHAIN_TOKEN_NAME": "FLR",
+            "CHAIN_LABEL": "Flare",
+            "CHAIN_URI": "https://flare-api.flare.network/ext/C/rpc"
+        }
+    ]
+}
